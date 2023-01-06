@@ -16,6 +16,7 @@ li{
 list-style: none;
 }
 /* common css end */
+/* Menubar css start */
 .navbar{
 
     background:linear-gradient( #0376d3, #0768c8aa);
@@ -35,16 +36,13 @@ list-style: none;
 .menu-bar ul{
     display: flex;
 }
-.menu-bar ul li{
-
-}
 .menu-bar ul li a{
     font-size: 20px;
     font-weight: 500;
     padding: 10px 20px;
     color: #fff;
 }
-
+/* Menubar css end */
 /* bunner css start */
 .bunner {
   background-image: url(../images/banner/banner3.png);
@@ -134,6 +132,7 @@ list-style: none;
   font-size: 30px;
 }
 .my-plans-categories-list p {
+    color: #454343;
   font-weight: 500;
   font-size: 25px;
 }
