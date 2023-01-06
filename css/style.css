@@ -49,3 +49,31 @@ color: #fff;
     border: 2px solid transparent;
 }
 /* bunner css end */
+/* failures css start */
+.failures{
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    margin: 130px auto;
+}
+.failures-description{
+    margin-top: 270px;
+}
+.failures-description h2{
+    font-weight: 700;
+font-size: 40px;
+padding-bottom: 24px;
+}
+.failurs-last-year{
+    padding-top: 16px;
+}
+.failures-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.failures-list .failures-list-icon img{
+    width: 25px;
+}
+/* failures css end */
