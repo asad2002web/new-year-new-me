@@ -77,7 +77,7 @@ a {
   width: 25px;
 }
 /* failures css end */
-/* my plan past start */
+/* my plan css start */
 .my-plans .heading {
   text-align: center;
   font-weight: 700;
@@ -87,6 +87,7 @@ a {
 .my-plans-categories {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 130px;
 }
 .my-plans-categories-list {
   text-align: center;
@@ -99,4 +100,32 @@ a {
   font-weight: 500;
   font-size: 25px;
 }
-/* my plan past end */
+/* my plan css end */
+/* footer css start  */
+footer{
+    padding: 130px 0;
+    background-color: #343434;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-future h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.footer-future{
+    color: #fff;
+}
+.footer-text{
+    padding: 16px 0 24px;
+}
+.footer-phone{
+    padding: 16px 0 32px;
+}
+.footer-future .icon img{
+    padding-right: 17px;
+}
+/* footer css end */
