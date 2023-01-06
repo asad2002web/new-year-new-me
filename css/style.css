@@ -101,8 +101,68 @@ a {
   font-size: 25px;
 }
 /* my plan css end */
+
+/* contact css start */
+.contact {
+  border-radius: 8px;
+  height: 300px;
+  background: url(../images/watch.png);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.ovarlay {
+  border-radius: 8px;
+  height: 300px;
+  background-image: linear-gradient(
+    90deg,
+    #005fac 0%,
+    rgba(0, 95, 172, 0) 100%
+  );
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.contact-text {
+  padding: 59px 0 0 64px;
+}
+.contact .ovarlay h2 {
+  padding-bottom: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+.contact .ovarlay a {
+  padding: 20px 35px;
+  color: #fff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: 0.5s;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.contact .ovarlay a:hover {
+  background-color: #ffff;
+  border: 1px solid transparent;
+  color: #005fac;
+}
+
+/* contact css end */
+
 /* footer css start  */
 footer {
+  margin-top: 130px;
   padding: 130px 0;
   background-color: #343434;
 }
@@ -129,7 +189,7 @@ footer {
   padding-right: 17px;
 }
 .footer-subscriber h4 {
-    color: #fff;
+  color: #fff;
   font-weight: 600;
   font-size: 25px;
 }
@@ -168,7 +228,7 @@ footer {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
-.footer-subscriber a:hover{
+.footer-subscriber a:hover {
   border: 1px solid transparent;
   color: #fff;
   background-color: #005fac;
