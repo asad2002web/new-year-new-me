@@ -5,7 +5,7 @@
   font-family: "Work Sans", sans-serif;
 }
 a {
-    display: inline-block;
+  display: inline-block;
   text-decoration: none;
 }
 .container {
@@ -21,59 +21,82 @@ a {
   padding: 216px 0 166px;
   text-align: right;
 }
-.bunner h1{
-    font-weight: 700;
-font-size: 65px;
-color: #fff;
+.bunner h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #fff;
 }
-.bunner p{
-    margin:  24px 0 32px;
-    color: #fff;
+.bunner p {
+  margin: 24px 0 32px;
+  color: #fff;
 }
 
-.bunner a{
-    padding: 20px 25px;
-    color: #fff;
-    border: 2px solid #fff;
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.bunner a {
+  padding: 20px 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-.bunner a:hover{
-    color: #005FAC;
-    background-color: #fff;
-    border: 2px solid transparent;
+.bunner a:hover {
+  color: #005fac;
+  background-color: #fff;
+  border: 2px solid transparent;
 }
 /* bunner css end */
 /* failures css start */
-.failures{
-    display: flex;
-    justify-content: flex-start;
-    gap: 80px;
-    margin: 130px auto;
+.failures {
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+  margin: 130px auto;
 }
-.failures-description{
-    margin-top: 270px;
+.failures-description {
+  margin-top: 270px;
 }
-.failures-description h2{
-    font-weight: 700;
-font-size: 40px;
-padding-bottom: 24px;
+.failures-description h2 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 24px;
 }
-.failurs-last-year{
-    padding-top: 16px;
+.failurs-last-year {
+  padding-top: 16px;
 }
 .failures-list {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 10px;
 }
-.failures-list .failures-list-icon img{
-    width: 25px;
+.failures-list .failures-list-icon img {
+  width: 25px;
 }
 /* failures css end */
+/* my plan past start */
+.my-plans .heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 50px 0;
+}
+.my-plans-categories {
+  display: flex;
+  justify-content: space-between;
+}
+.my-plans-categories-list {
+  text-align: center;
+}
+.my-plans-categories-list h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.my-plans-categories-list p {
+  font-weight: 500;
+  font-size: 25px;
+}
+/* my plan past end */
